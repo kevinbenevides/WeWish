@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\bin",
+    "\\bin\\Debug",
+    "\\bin\\Release",
+    "\\Context",
+    "\\Interfaces",
+    "\\obj",
+    "\\obj\\Debug",
+    "\\obj\\Release",
+    "\\Properties",
+    "\\Repositories"
+  ],
+  "SelectedNode": "\\ViewModels",
+  "PreviewInSolutionExplorer": false
+}
