@@ -1,0 +1,28 @@
+
+.header {
+    height: 87px;
+    background-color: #FF6666;
+    padding: 20px 0;
+}
+
+.header__image {
+    width: 95px;
+    height: auto;
+}
+
+.header__list-item,
+.header__list-item a {
+    display: inline;
+    margin: 0 10px;
+    font-weight: 700;
+    color: white;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.header__list-item:hover {
+    /* color: #43474C; */
+    border-bottom: solid 4px #43474C;
+    padding-bottom: 30px;
+}
+
