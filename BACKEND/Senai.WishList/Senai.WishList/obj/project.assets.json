@@ -12915,11 +12915,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\39235256801\\Documents\\WishList\\BACKEND\\Senai.WishList\\Senai.WishList\\Senai.WishList.csproj",
+      "projectUniqueName": "C:\\Users\\39235256801\\Documents\\WeWish\\BACKEND\\Senai.WishList\\Senai.WishList\\Senai.WishList.csproj",
       "projectName": "Senai.WishList",
-      "projectPath": "C:\\Users\\39235256801\\Documents\\WishList\\BACKEND\\Senai.WishList\\Senai.WishList\\Senai.WishList.csproj",
+      "projectPath": "C:\\Users\\39235256801\\Documents\\WeWish\\BACKEND\\Senai.WishList\\Senai.WishList\\Senai.WishList.csproj",
       "packagesPath": "C:\\Users\\39235256801\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\39235256801\\Documents\\WishList\\BACKEND\\Senai.WishList\\Senai.WishList\\obj\\",
+      "outputPath": "C:\\Users\\39235256801\\Documents\\WeWish\\BACKEND\\Senai.WishList\\Senai.WishList\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
