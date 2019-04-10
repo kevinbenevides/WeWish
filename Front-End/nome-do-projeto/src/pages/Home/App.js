@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-//import logo from '../../common/img/we-wish-logo.svg';
+import background from '../../common/img/beautiful-bestfriends-celebration-1627935.jpg';
 
 import '../../common/css/flexbox.css';
 import '../../common/css/main.css';
@@ -8,6 +8,14 @@ import './App.css';
 import Navbar from '../../components/navbar/Navbar';
 
 import Axios from 'axios';
+
+var sectionStyle = {
+  width: "50vw",
+  height: "400px",
+  backgroundImage: "url(" +  background  + ")"
+};
+
+
 class App extends Component {
   constructor(){
     super();
@@ -51,24 +59,24 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Navbar />
+      <Navbar />
       
-      
-      <section className="main-cadastro">
+      <section className="main-cadastro" >
                 <div className="img__login"><div className="img__overlay"></div></div>
 
-                <div className="item__login">
+                <div className="item__login container-formulario">
                     <div className="row">
-                        <div className="item" id="item__title">
-                            <p className="text__login" id="item__description">
+                        <div className="item titulo-formulario" id="item__title">
+                            <h2 className="text__login" id="item__description">
                                 Bem-vindo! Faça login para acessar sua conta.
-                            </p>
+                            </h2>
                         </div>
                         <form onSubmit={this.efetuaLogin.bind(this)}>
-                            <div className="item">
+                            <div className="item item-formulario">
+                                <p>E-mail</p>
                                 <input
                                     className="input__login"
-                                    placeholder="username"
+                                    placeholder="Digite seu e-mail"
                                     type="text"
                                     value={this.state.email}
                                     onChange={this.atualizaStateEmail.bind(this)}
@@ -76,10 +84,11 @@ class App extends Component {
                                     id="login__email"
                                 />
                             </div>
-                            <div className="item">
+                            <div className="item item-formulario">
+                                <p>Senha</p>
                                 <input
                                     className="input__login"
-                                    placeholder="password"
+                                    placeholder="Digite sua senha"
                                     type="password"
                                     value={this.state.senha}
                                     onChange={this.atualizaStateSenha.bind(this)}
@@ -88,7 +97,7 @@ class App extends Component {
                                 />
                             </div>
                             <p className="text__login" style={{color : 'red', textAlign : 'center'}}>{this.state.erroMensegem}</p>
-                            <div className="item">
+                            <div className="item item-formulario-btn">
                                 
                             <button type="submit" className="btn btn__login" id="btn__login">
                                         Login

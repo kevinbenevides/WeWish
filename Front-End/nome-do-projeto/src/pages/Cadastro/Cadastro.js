@@ -16,10 +16,12 @@ class Cadastro extends Component {
 
                 <main className="main-cadastro">
                     <div className="container-formulario">
-                        <h2>Você tem direito a...</h2>
-                        <h2>todos os desejos que quiser!</h2>
+                        <div className="titulo-formulario">
+                            <h2>Você tem direito a...</h2>
+                            <h2>todos os desejos que quiser!</h2>
+                        </div>
                         <h3>Cadastre-se e comece já a sua lista de desejos</h3>
-                        <form className="formulário">
+                        <form className="formulario">
                             <div className="item-formulario">
                                 <p>Nome</p>
                                 <input type="text"/>
