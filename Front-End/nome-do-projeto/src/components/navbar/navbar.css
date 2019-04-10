@@ -1,7 +1,7 @@
 
 .header {
     height: 87px;
-    background-color: #393C40;
+    background-color: #43474C;
     padding: 20px 0;
 }
 
@@ -22,7 +22,7 @@
 
 .header__list-item:hover {
     /* color: #43474C; */
-    border-bottom: solid 4px #f2f2f2;
+    border-bottom: solid 4px #FF6666;
     padding-bottom: 30px;
 }
 

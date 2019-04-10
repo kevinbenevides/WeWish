@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
-import logo from '../../logo.svg';
+//import logo from '../../common/img/we-wish-logo.svg';
+
+import '../../common/css/flexbox.css';
+import '../../common/css/main.css';
 import './App.css';
+
+import Navbar from '../../components/navbar/Navbar';
+
 
 import Axios from 'axios';
 class App extends Component {
@@ -45,14 +51,15 @@ class App extends Component {
 
   render() {
     return (
-      <section className="container flex">
+      <div>
+        <Navbar />
+      
+      
+      <section className="main-cadastro">
                 <div className="img__login"><div className="img__overlay"></div></div>
 
                 <div className="item__login">
                     <div className="row">
-                        <div className="item">
-                            {/* <img src={logo} className="icone__login" /> */}
-                        </div>
                         <div className="item" id="item__title">
                             <p className="text__login" id="item__description">
                                 Bem-vindo! Faça login para acessar sua conta.
@@ -92,6 +99,7 @@ class App extends Component {
         </div>
                     </div>
     </section>
+    </div>
     );
   }
 }

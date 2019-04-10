@@ -4,6 +4,7 @@ import { Route, BrowserRouter as Router, Switch, Redirect } from "react-router-d
 import './index.css';
 import App from './pages/Home/App';
 import Desejos from './pages/Desejos/Desejos'
+import Cadastro from './pages/Cadastro/Cadastro'
 import * as serviceWorker from './serviceWorker';
 
 const routing = (
@@ -12,6 +13,7 @@ const routing = (
             <Switch>
                 <Route exact path ="/" component={App}/>
                 <Route path="/desejos" component={Desejos}/>
+                <Route path="/cadastro" component={Cadastro}/>
             </Switch>
         </div>
     </Router>

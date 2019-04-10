@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Navbar from '../../components/navbar/Navbar';
 
 import Axios from 'axios';
 
@@ -51,6 +52,7 @@ class Desejos extends Component{
     render(){
         return(
                 <div>
+                    <Navbar />
                     <h1>Desejos</h1>
                     <p>Bem vindo aos seus Desejos</p>
                     <form onSubmit={this.cadastraDesejo}>

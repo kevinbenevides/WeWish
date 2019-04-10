@@ -1,22 +1,3 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-}
-
-
-body {
-    width: 100vw;
-    font-family: 'Rubik', sans-serif;
-    font-size: 100%;
-
-}
-
-.wrapper {
-    padding: 0 10%;
-}
-
 .main-cadastro{
     background-color: #FF6666;
     width: 100%;
