@@ -40,3 +40,17 @@ C:\Users\39235256801\Documents\WeWish\BACKEND\Senai.WishList\Senai.WishList\obj\
 C:\Users\39235256801\Documents\WeWish\BACKEND\Senai.WishList\Senai.WishList\obj\Debug\netcoreapp2.1\Senai.WishList.RazorTargetAssemblyInfo.cache
 C:\Users\39235256801\Documents\WeWish\BACKEND\Senai.WishList\Senai.WishList\obj\Debug\netcoreapp2.1\Senai.WishList.dll
 C:\Users\39235256801\Documents\WeWish\BACKEND\Senai.WishList\Senai.WishList\obj\Debug\netcoreapp2.1\Senai.WishList.pdb
+C:\Users\user\Documents\WeWish\BACKEND\Senai.WishList\Senai.WishList\bin\Debug\netcoreapp2.1\Senai.WishList.deps.json
+C:\Users\user\Documents\WeWish\BACKEND\Senai.WishList\Senai.WishList\bin\Debug\netcoreapp2.1\Senai.WishList.runtimeconfig.json
+C:\Users\user\Documents\WeWish\BACKEND\Senai.WishList\Senai.WishList\bin\Debug\netcoreapp2.1\Senai.WishList.runtimeconfig.dev.json
+C:\Users\user\Documents\WeWish\BACKEND\Senai.WishList\Senai.WishList\bin\Debug\netcoreapp2.1\Senai.WishList.dll
+C:\Users\user\Documents\WeWish\BACKEND\Senai.WishList\Senai.WishList\bin\Debug\netcoreapp2.1\Senai.WishList.pdb
+C:\Users\user\Documents\WeWish\BACKEND\Senai.WishList\Senai.WishList\obj\Debug\netcoreapp2.1\Senai.WishList.csprojAssemblyReference.cache
+C:\Users\user\Documents\WeWish\BACKEND\Senai.WishList\Senai.WishList\obj\Debug\netcoreapp2.1\Senai.WishList.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\WeWish\BACKEND\Senai.WishList\Senai.WishList\obj\Debug\netcoreapp2.1\Senai.WishList.RazorAssemblyInfo.cache
+C:\Users\user\Documents\WeWish\BACKEND\Senai.WishList\Senai.WishList\obj\Debug\netcoreapp2.1\Senai.WishList.RazorAssemblyInfo.cs
+C:\Users\user\Documents\WeWish\BACKEND\Senai.WishList\Senai.WishList\obj\Debug\netcoreapp2.1\Senai.WishList.AssemblyInfoInputs.cache
+C:\Users\user\Documents\WeWish\BACKEND\Senai.WishList\Senai.WishList\obj\Debug\netcoreapp2.1\Senai.WishList.AssemblyInfo.cs
+C:\Users\user\Documents\WeWish\BACKEND\Senai.WishList\Senai.WishList\obj\Debug\netcoreapp2.1\Senai.WishList.RazorTargetAssemblyInfo.cache
+C:\Users\user\Documents\WeWish\BACKEND\Senai.WishList\Senai.WishList\obj\Debug\netcoreapp2.1\Senai.WishList.dll
+C:\Users\user\Documents\WeWish\BACKEND\Senai.WishList\Senai.WishList\obj\Debug\netcoreapp2.1\Senai.WishList.pdb

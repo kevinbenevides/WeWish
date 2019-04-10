@@ -2,6 +2,7 @@ import React from 'react';
 
 import "../../components/navbar/navbar.css"
 import logo from '../../common/img/we-wish-logo.svg';
+import {Link} from 'react-router-dom';
 
 function Navbar() {
     return(
@@ -12,8 +13,8 @@ function Navbar() {
                 </div>
                 <nav className="header__navbar">
                     <ul className="header__list">
-                        <li className="header__list-item"><a href="">Cadastrar</a></li>
-                        <li className="header__list-item"><a href="">Entrar</a></li>
+                        <li className="header__list-item"><Link to="/cadastro">Cadastrar</Link></li>
+                        <li className="header__list-item"><Link to="/">Entrar</Link></li>
                     </ul>
                 </nav>
             </div>

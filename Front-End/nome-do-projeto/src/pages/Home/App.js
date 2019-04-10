@@ -7,7 +7,6 @@ import './App.css';
 
 import Navbar from '../../components/navbar/Navbar';
 
-
 import Axios from 'axios';
 class App extends Component {
   constructor(){
