@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import background from '../../common/img/beautiful-bestfriends-celebration-1627935.jpg';
 
 import '../../common/css/flexbox.css';
 import '../../common/css/main.css';
@@ -8,12 +7,6 @@ import './App.css';
 import Navbar from '../../components/navbar/Navbar';
 
 import Axios from 'axios';
-
-var sectionStyle = {
-  width: "50vw",
-  height: "400px",
-  backgroundImage: "url(" +  background  + ")"
-};
 
 
 class App extends Component {

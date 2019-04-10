@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import Navbar from '../../components/navbar/Navbar';
+import '../../common/css/flexbox.css';
+import '../../common/css/main.css';
+import './desejos.css';
 
 import Axios from 'axios';
 
@@ -70,22 +73,28 @@ class Desejos extends Component {
         return (
             <div>
                 <Navbar />
-                <h1>Desejos</h1>
-                <p>Bem vindo aos seus Desejos</p>
-                <form onSubmit={this.cadastraDesejo}>
-                    <p>Qual o seu Desejo</p>
-                    <input
-                        className="Caixa-desejos"
-                        type="text"
-                        value={this.state.desejos}
-                        onChange={this.atualizaStateNome}
-                        placeholder="Desejo..." />
+                <section className="section-form">
+        
+                    <h1>Desejos</h1>
+                    <h2>Bem vindo aos seus Desejos</h2>
+                    <form onSubmit={this.cadastraDesejo}>
+                        <h3>Qual o seu Desejo?</h3>
+                        <input
+                            className="Caixa-desejos"
+                            type="text"
+                            value={this.state.desejos}
+                            onChange={this.atualizaStateNome}
+                            placeholder="Desejo..." />
 
-                    <button>
-                        Cadastrar
-                        </button>
+                        <button>
+                            Cadastrar
+                            </button>
 
-                </form>
+                    </form>
+                </section>
+
+
+
                 <section>
                     <div className="container" id="conteudoPrincipal-lista">
                         <table id="tabela-lista">
