@@ -63,10 +63,12 @@ namespace Senai.WishList.Controllers
         }
 
 
-
+        //[Authorize]
         [HttpPost]
         public IActionResult Post(Desejos Desejo)
         {
+            int id = Convert.ToInt32(HttpContext.User.Claims.First(c => c.Type == JwtRegisteredClaimNames.Jti).Value);
+            Desejo.Idusuario = id;
             try
             {
                 DesejoRepository.Cadastrar(Desejo);
