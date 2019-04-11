@@ -20,7 +20,6 @@ class Desejos extends Component {
         super();
         this.state = {
             Lista: [],
-            idusuario: 1,
             desejos: "",
             datacriacao: str_data
         }
@@ -31,10 +30,22 @@ class Desejos extends Component {
 
     
     buscaDesejo(event) {
-        fetch("http://localhost:5000/api/Desejo")
-        .then(resposta => resposta.json())
-        .then(data => this.setState({Lista : data}))
-        .catch((erro) => console.log(erro))
+        // fetch("http://localhost:5000/api/Desejo")
+        // .then(resposta => resposta.json())
+        // .then(data => this.setState({Lista : data}))
+        // .catch((erro) => console.log(erro))
+        var bearer = 'Bearer ' + localStorage.getItem("usuario-WeWish");
+
+        Axios.get(
+            "http://localhost:5000/Desejo/ExibirMeusDesejos",
+            {headers: {'Authorization': bearer}}
+          )
+          .then((response) => {
+              response = this.setState({Lista : response.data})
+            })         
+          .catch(erro => {
+                console.log(erro);
+            })
     }
 
     componentDidMount(){
@@ -48,12 +59,13 @@ class Desejos extends Component {
     cadastraDesejo(event) {
         event.preventDefault();
 
+        var bearer = 'Bearer ' + localStorage.getItem("usuario-WeWish");
+        
         Axios.post("http://localhost:5000/api/Desejo", {
-            idusuario: this.state.idusuario,
             descricao: this.state.desejos,
             datacriacao: this.state.datacriacao
 
-        })
+        }, {headers: {'Authorization': bearer}})
 
             .then(data => {
                 if (data.status === 200) {

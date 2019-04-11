@@ -23,7 +23,8 @@ namespace Senai.WishList.Domains
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("Data Source=.\\SQLEXPRESS; initial catalog = WishList;user id = sa; pwd = 132");
+                optionsBuilder.UseSqlServer("Server=DESKTOP-7ULBNBP\\SQLEXPRESS; Database=WishList;Integrated Security=True;");
+                //optionsBuilder.UseSqlServer("Data Source=.\\SQLEXPRESS; initial catalog = WishList;user id = sa; pwd = 132");
             }
         }
 
